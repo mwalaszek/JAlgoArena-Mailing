@@ -1,0 +1,5 @@
+{
+  "name": "JAlgoArena Mailing Service",
+  "description": "JAlgoArena Mailing Service",
+  "success_url": "/health"
+}

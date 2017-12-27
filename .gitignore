@@ -1,0 +1,6 @@
+.gradle
+build/
+.idea
+ProblemsStore/xd.lck
+ProblemsStoreForTests
+logs

@@ -1,0 +1,29 @@
+logging:
+  path: ./logs
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URL:https://jalgo-eureka.herokuapp.com/eureka/}
+
+server:
+  port: ${PORT:5666}
+
+mailgun:
+  domain: sandboxe558a48e59804a408fd9c5e02d78bbf7.mailgun.org
+  apiKey:
+  name: JAlgo
+  email: jalgo@mailgun.com
+
+---
+spring:
+  profiles: heroku
+eureka:
+  instance:
+    hostname: ${APP_NAME:jalgo-mailing}.herokuapp.com
+    nonSecurePort: 80
+
+logging:
+  level:
+    ROOT: INFO
+    org.springframework.web: INFO
