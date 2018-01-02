@@ -1,1 +1,1 @@
-web: java -jar build/libs/jalgoarena-problems-*.jar  --spring.profiles.active=heroku
+web: java -jar build/libs/jalgoarena-mailing-*.jar  --spring.profiles.active=heroku
