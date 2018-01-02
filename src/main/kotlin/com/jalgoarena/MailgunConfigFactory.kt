@@ -21,7 +21,7 @@ open class MailgunConfigFactory (): FactoryBean<Configuration> {
     }
 
     override fun getObjectType(): Class<*> {
-        return Class.forName("net.sargue.mailgun.Configuration")
+        return Configuration::class.java
     }
 
     override fun isSingleton(): Boolean {

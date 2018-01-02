@@ -11,6 +11,7 @@ import javax.inject.Inject
 class MailingService (
         @Inject private val configuration: Configuration
 ) {
+
     fun send(receiver: String, subject: String, message: String): Int {
         val response = Mail.using(configuration)
                 .to(receiver)

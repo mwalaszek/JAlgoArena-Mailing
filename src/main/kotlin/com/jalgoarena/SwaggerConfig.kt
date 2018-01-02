@@ -24,7 +24,7 @@ open class SwaggerConfig {
     private fun apiInfo(): ApiInfo {
         return ApiInfoBuilder()
                 .title("Mailing API")
-                .version("1.0.0")
+                .version("0.1.0")
                 .build()
     }
 }
