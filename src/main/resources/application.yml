@@ -11,7 +11,7 @@ server:
 
 mailgun:
   domain: sandboxe558a48e59804a408fd9c5e02d78bbf7.mailgun.org
-  apiKey:
+  apiKey: key-8a1877ca8f6382a68845845c77e1323b
   name: JAlgo
   email: jalgo@mailgun.com
 
